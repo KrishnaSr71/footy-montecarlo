@@ -1,2 +1,2 @@
-# Simulating the outcomes of soccer matches using probabilistic models.
+# Simulating Outcomes of Soccer Matches w/ Monte Carlo Methods.
 
