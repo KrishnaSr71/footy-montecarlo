@@ -1,0 +1,46 @@
+{
+  "league": "spain",
+  "team_name": "Osasuna",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=spain&stats=u1297-osasuna",
+  "home_games": 14,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.2857,
+      0.0714,
+      0.6429,
+      0.0,
+      0.1429,
+      0.6429
+    ],
+    "away_scored": [
+      0.0,
+      0.0667,
+      0.1333,
+      0.0,
+      0.0,
+      0.4
+    ],
+    "home_conceded": [
+      0.0,
+      0.2143,
+      0.1429,
+      0.1429,
+      0.4286,
+      0.2143
+    ],
+    "away_conceded": [
+      0.0,
+      0.2,
+      0.1333,
+      0.4,
+      0.4,
+      0.1333
+    ]
+  },
+  "home_xg": 1.79,
+  "away_xg": 0.6,
+  "home_xga": 1.14,
+  "away_xga": 1.27,
+  "cached_at": 1774730468.3060946
+}

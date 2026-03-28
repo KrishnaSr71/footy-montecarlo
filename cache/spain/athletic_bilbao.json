@@ -1,0 +1,46 @@
+{
+  "league": "spain",
+  "team_name": "Athletic Bilbao",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=spain&stats=u1295-athletic-bilbao",
+  "home_games": 15,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0667,
+      0.2,
+      0.3333,
+      0.0667,
+      0.1333,
+      0.4667
+    ],
+    "away_scored": [
+      0.1429,
+      0.0,
+      0.2857,
+      0.2143,
+      0.1429,
+      0.1429
+    ],
+    "home_conceded": [
+      0.1333,
+      0.0,
+      0.2,
+      0.2667,
+      0.3333,
+      0.2
+    ],
+    "away_conceded": [
+      0.2143,
+      0.0714,
+      0.4286,
+      0.3571,
+      0.1429,
+      0.5
+    ]
+  },
+  "home_xg": 1.27,
+  "away_xg": 0.93,
+  "home_xga": 1.13,
+  "away_xga": 1.71,
+  "cached_at": 1774730432.6458566
+}

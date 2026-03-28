@@ -1,0 +1,46 @@
+{
+  "league": "england",
+  "team_name": "Nottm Forest",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=england&stats=u7594-nottm-forest",
+  "home_games": 15,
+  "away_games": 16,
+  "interval_stats": {
+    "home_scored": [
+      0.2,
+      0.0667,
+      0.1333,
+      0.2667,
+      0.0667,
+      0.1333
+    ],
+    "away_scored": [
+      0.1875,
+      0.0,
+      0.125,
+      0.25,
+      0.1875,
+      0.375
+    ],
+    "home_conceded": [
+      0.0667,
+      0.0667,
+      0.2667,
+      0.2,
+      0.0,
+      0.6667
+    ],
+    "away_conceded": [
+      0.25,
+      0.25,
+      0.4375,
+      0.25,
+      0.125,
+      0.1875
+    ]
+  },
+  "home_xg": 0.87,
+  "away_xg": 1.13,
+  "home_xga": 1.27,
+  "away_xga": 1.5,
+  "cached_at": 1774730407.605669
+}

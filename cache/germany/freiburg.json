@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "Freiburg",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1403-freiburg",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.3846,
+      0.0769,
+      0.3846,
+      0.3077,
+      0.1538,
+      0.5385
+    ],
+    "away_scored": [
+      0.1429,
+      0.0714,
+      0.1429,
+      0.2143,
+      0.2857,
+      0.2143
+    ],
+    "home_conceded": [
+      0.1538,
+      0.1538,
+      0.5385,
+      0.1538,
+      0.0769,
+      0.1538
+    ],
+    "away_conceded": [
+      0.0714,
+      0.2143,
+      0.1429,
+      0.9286,
+      0.1429,
+      0.5
+    ]
+  },
+  "home_xg": 1.85,
+  "away_xg": 1.07,
+  "home_xga": 1.23,
+  "away_xga": 2.0,
+  "cached_at": 1774730586.5920815
+}

@@ -11,9 +11,14 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+import json
+import os
+import sys
+
 BASE = "https://www.soccerstats.com/"
 INTERVALS = ["0-15", "16-30", "31-45", "46-60", "61-75", "76-90"]
 LEAGUES = ["italy", "england", "spain", "france", "germany"]
+CACHE_DIR = "cache"
 
 class Scraper:
     def __init__(self, delay=1.5, timeout=15):
@@ -106,13 +111,13 @@ class Scraper:
               ) 
         
         return {
-            "home": __get_ha("Home"),
-            "away": __get_ha("Away")
+            "home": int(__get_ha("Home")),
+            "away": int(__get_ha("Away"))
         }
 
     def get_intervals(self, soup, games):
 
-        def __get_goals(suffix, scored, conceded):
+        def __get_goals(suffix, scored, conceded, games_ct):
             label = soup.find("label", attrs={"for": lambda f: f and "SCT" in f and f.endswith(suffix)})
             rows = label.find_next("div", class_="tab").find_all("table")[1].find_all("tr", class_=["trow2", "trow8"])
             if not rows: return None
@@ -124,20 +129,16 @@ class Scraper:
                 if counter > 11: break
                 # For GF, use 2nd entry in the table. For GA, use 1st entry.
                 goals = row.find_all("td")[flip+1].text.strip()
-                if flip: scored.append(round(float(goals) / float(games["home"]), 4))
-                else: conceded.append(round(float(goals) / float(games["away"]), 4))
+                if flip: scored.append(round(float(goals) / games_ct, 4))
+                else: conceded.append(round(float(goals) / games_ct, 4))
 
                 flip ^= 1
                 counter += 1
-
-            print(f'scored: {scored}')
-            print(f'conceded: {conceded}')
-        
         home_scored, home_conceded = [], [];
         away_scored, away_conceded = [], [];
 
-        __get_goals("_2", home_scored, home_conceded)
-        __get_goals("_3", away_scored, away_conceded)
+        __get_goals("_2", home_scored, home_conceded, games["home"])
+        __get_goals("_3", away_scored, away_conceded, games["away"])
             
         return {
             "home_scored": home_scored,
@@ -147,7 +148,7 @@ class Scraper:
         }
     
     ## Scrape interval data for single team
-    def get_team_stats(self, team_name, team_url):
+    def get_team_stats(self, team_name, team_url, league):
         soup = self.__soup(team_url)
 
         # xg(a) stats
@@ -156,6 +157,7 @@ class Scraper:
         interval_stats = self.get_intervals(soup, game_stats)
 
         result = {
+            "league": league,
             "team_name": team_name,
             "team_url": team_url,
             "home_games": game_stats["home"],
@@ -174,25 +176,48 @@ class Scraper:
         }
 
         return result
+
+    def save_team(self, team_data):
+        league = team_data["league"]
+        league_dir = os.path.join(CACHE_DIR, league)
+        os.makedirs(league_dir, exist_ok=True)
+        name = team_data["team_name"].lower().replace(" ", "_")
+        path = os.path.join(league_dir, f"{name}.json")
+        team_data["cached_at"] = time.time()
+        with open(path, "w") as f:
+            json.dump(team_data, f, indent=2)
+        return path
+
+    def load_team(self, team_name, league, max_age_days=3):
+        path = os.path.join(CACHE_DIR, league, f"{team_name.lower().replace(' ', '_')}.json")
+        if not os.path.exists(path):
+            return None
+        with open(path) as f:
+            data = json.load(f)
+        age = time.time() - data.get("cached_at", 0)
+        if age > max_age_days * 86400:
+            return None
+        return data 
     
 if __name__ == "__main__":
-    scraper = Scraper(delay=2.0)
+    scraper = Scraper(delay=3.0)
+    use_cache = "--cache" in sys.argv
 
-    ### === GET TEAMS IN LEAGUE === ###
-    # Get all teams in Serie A
+    if "--help" in sys.argv:
+        print("USAGE: python scraper.py; --cache to save/overwrite cache directory.")
+
+    ### === GET TEAM STATS === ###
+    # Get all teams in t5 leagues
     for league in LEAGUES:
-        teams = scraper.get_teams(league=league)
-        # Print name + url
-        for r in teams:
-            print(r["team_name"], r["team_url"])
-        print("/==========================/")
-
-    
-    # print("/==========================/")
-    
-    # ### === GET TEAM STATS === ###
-    # # Get first team
-    # stats = scraper.get_team_stats(team_name="Inter Milan",  team_url="https://www.soccerstats.com/teamstats.asp?league=italy&stats=u1289-inter-milan")
-    # print(f"Stats: {stats}")
-
-
+        for r in scraper.get_teams(league=league):
+            try:
+                if not use_cache:
+                    cached = scraper.load_team(team_name=r["team_name"], league=league)
+                    if cached: continue
+                    else: 
+                        print(f"Error on {r["team_name"]}, no Cache found. Run program again with arg: --cache", file=sys.stderr)
+                        continue
+                stats = scraper.get_team_stats(team_name=r["team_name"], team_url=r["team_url"], league=league)
+                if use_cache: scraper.save_team(stats)
+            except Exception as e:
+                print(f"Error on {r["team_name"]}: {e}", file=sys.stderr)

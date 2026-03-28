@@ -1,0 +1,46 @@
+{
+  "league": "england",
+  "team_name": "Manchester Utd",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=england&stats=u320-manchester-utd",
+  "home_games": 15,
+  "away_games": 16,
+  "interval_stats": {
+    "home_scored": [
+      0.2,
+      0.3333,
+      0.3333,
+      0.3333,
+      0.2667,
+      0.5333
+    ],
+    "away_scored": [
+      0.0625,
+      0.125,
+      0.3125,
+      0.375,
+      0.375,
+      0.375
+    ],
+    "home_conceded": [
+      0.1333,
+      0.0667,
+      0.1333,
+      0.2,
+      0.2,
+      0.4
+    ],
+    "away_conceded": [
+      0.125,
+      0.1875,
+      0.25,
+      0.3125,
+      0.3125,
+      0.4375
+    ]
+  },
+  "home_xg": 2.0,
+  "away_xg": 1.63,
+  "home_xga": 1.13,
+  "away_xga": 1.63,
+  "cached_at": 1774730400.5041776
+}

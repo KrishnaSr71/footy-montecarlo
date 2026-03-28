@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "Union Berlin",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1396-union-berlin",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0769,
+      0.3846,
+      0.1538,
+      0.1538,
+      0.1538,
+      0.4615
+    ],
+    "away_scored": [
+      0.0714,
+      0.0714,
+      0.1429,
+      0.1429,
+      0.1429,
+      0.3571
+    ],
+    "home_conceded": [
+      0.0769,
+      0.0769,
+      0.4615,
+      0.2308,
+      0.1538,
+      0.6154
+    ],
+    "away_conceded": [
+      0.0714,
+      0.0714,
+      0.7143,
+      0.4286,
+      0.1429,
+      0.3571
+    ]
+  },
+  "home_xg": 1.38,
+  "away_xg": 0.93,
+  "home_xga": 1.62,
+  "away_xga": 1.79,
+  "cached_at": 1774730622.3076987
+}

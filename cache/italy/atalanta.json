@@ -1,0 +1,46 @@
+{
+  "league": "italy",
+  "team_name": "Atalanta",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=italy&stats=u1286-atalanta",
+  "home_games": 16,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.375,
+      0.125,
+      0.25,
+      0.1875,
+      0.3125,
+      0.3125
+    ],
+    "away_scored": [
+      0.0,
+      0.0714,
+      0.3571,
+      0.2143,
+      0.0,
+      0.5
+    ],
+    "home_conceded": [
+      0.0625,
+      0.25,
+      0.0625,
+      0.125,
+      0.1875,
+      0.125
+    ],
+    "away_conceded": [
+      0.0,
+      0.2857,
+      0.2857,
+      0.0,
+      0.1429,
+      0.2857
+    ]
+  },
+  "home_xg": 1.56,
+  "away_xg": 1.14,
+  "home_xga": 0.81,
+  "away_xga": 1.0,
+  "cached_at": 1774730282.1684272
+}

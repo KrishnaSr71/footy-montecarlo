@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Angers",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u502-angers",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0769,
+      0.2308,
+      0.0769,
+      0.2308,
+      0.0769,
+      0.5385
+    ],
+    "away_scored": [
+      0.0,
+      0.1429,
+      0.0714,
+      0.1429,
+      0.0714,
+      0.1429
+    ],
+    "home_conceded": [
+      0.0,
+      0.3077,
+      0.3846,
+      0.0,
+      0.2308,
+      0.2308
+    ],
+    "away_conceded": [
+      0.2143,
+      0.1429,
+      0.2143,
+      0.4286,
+      0.5,
+      0.0714
+    ]
+  },
+  "home_xg": 1.23,
+  "away_xg": 0.57,
+  "home_xga": 1.15,
+  "away_xga": 1.57,
+  "cached_at": 1774730503.564922
+}

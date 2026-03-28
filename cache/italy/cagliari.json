@@ -1,0 +1,46 @@
+{
+  "league": "italy",
+  "team_name": "Cagliari",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=italy&stats=u1281-cagliari",
+  "home_games": 15,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.0,
+      0.0,
+      0.3333,
+      0.2,
+      0.2,
+      0.3333
+    ],
+    "away_scored": [
+      0.0,
+      0.1333,
+      0.2,
+      0.1333,
+      0.3333,
+      0.2
+    ],
+    "home_conceded": [
+      0.2,
+      0.0667,
+      0.2,
+      0.1333,
+      0.2,
+      0.4
+    ],
+    "away_conceded": [
+      0.3333,
+      0.3333,
+      0.0667,
+      0.2667,
+      0.2667,
+      0.3333
+    ]
+  },
+  "home_xg": 1.07,
+  "away_xg": 1.0,
+  "home_xga": 1.2,
+  "away_xga": 1.6,
+  "cached_at": 1774730290.4221892
+}

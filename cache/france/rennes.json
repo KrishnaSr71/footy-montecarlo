@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Rennes",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u504-rennes",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.0714,
+      0.3571,
+      0.1429,
+      0.3571,
+      0.2143,
+      0.5714
+    ],
+    "away_scored": [
+      0.2308,
+      0.5385,
+      0.1538,
+      0.3077,
+      0.0769,
+      0.1538
+    ],
+    "home_conceded": [
+      0.3571,
+      0.0,
+      0.1429,
+      0.0714,
+      0.2143,
+      0.2143
+    ],
+    "away_conceded": [
+      0.0,
+      0.0769,
+      0.3846,
+      0.4615,
+      0.3077,
+      0.5385
+    ]
+  },
+  "home_xg": 1.71,
+  "away_xg": 1.46,
+  "home_xga": 1.0,
+  "away_xga": 1.77,
+  "cached_at": 1774730555.2157795
+}

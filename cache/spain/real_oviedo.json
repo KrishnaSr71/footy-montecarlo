@@ -1,0 +1,46 @@
+{
+  "league": "spain",
+  "team_name": "Real Oviedo",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=spain&stats=u7141-real-oviedo",
+  "home_games": 14,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.0,
+      0.1429,
+      0.1429,
+      0.0,
+      0.1429,
+      0.0
+    ],
+    "away_scored": [
+      0.0667,
+      0.0,
+      0.2667,
+      0.2667,
+      0.0667,
+      0.2667
+    ],
+    "home_conceded": [
+      0.0,
+      0.0714,
+      0.0714,
+      0.1429,
+      0.2857,
+      0.4286
+    ],
+    "away_conceded": [
+      0.2667,
+      0.4,
+      0.4,
+      0.3333,
+      0.4,
+      0.4667
+    ]
+  },
+  "home_xg": 0.43,
+  "away_xg": 0.93,
+  "home_xga": 1.0,
+  "away_xga": 2.27,
+  "cached_at": 1774730482.3238304
+}

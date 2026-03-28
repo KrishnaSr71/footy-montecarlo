@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Metz",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u515-metz",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0769,
+      0.0769,
+      0.2308,
+      0.0769,
+      0.0769,
+      0.4615
+    ],
+    "away_scored": [
+      0.1429,
+      0.2143,
+      0.0714,
+      0.0714,
+      0.0714,
+      0.2857
+    ],
+    "home_conceded": [
+      0.3077,
+      0.1538,
+      0.4615,
+      0.0769,
+      0.2308,
+      0.5385
+    ],
+    "away_conceded": [
+      0.3571,
+      0.3571,
+      0.5,
+      0.4286,
+      0.2143,
+      0.7857
+    ]
+  },
+  "home_xg": 1.0,
+  "away_xg": 0.86,
+  "home_xga": 1.77,
+  "away_xga": 2.64,
+  "cached_at": 1774730534.580283
+}

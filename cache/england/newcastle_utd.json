@@ -1,0 +1,46 @@
+{
+  "league": "england",
+  "team_name": "Newcastle Utd",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=england&stats=u330-newcastle-utd",
+  "home_games": 16,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.125,
+      0.25,
+      0.375,
+      0.1875,
+      0.25,
+      0.625
+    ],
+    "away_scored": [
+      0.2667,
+      0.2667,
+      0.2,
+      0.0667,
+      0.0667,
+      0.1333
+    ],
+    "home_conceded": [
+      0.0,
+      0.125,
+      0.4375,
+      0.25,
+      0.125,
+      0.6875
+    ],
+    "away_conceded": [
+      0.0667,
+      0.2,
+      0.3333,
+      0.1333,
+      0.2,
+      0.3333
+    ]
+  },
+  "home_xg": 1.81,
+  "away_xg": 1.0,
+  "home_xga": 1.63,
+  "away_xga": 1.27,
+  "cached_at": 1774730404.034053
+}

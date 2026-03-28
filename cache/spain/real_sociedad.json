@@ -1,0 +1,46 @@
+{
+  "league": "spain",
+  "team_name": "Real Sociedad",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=spain&stats=u1305-real-sociedad",
+  "home_games": 14,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.0,
+      0.3571,
+      0.3571,
+      0.4286,
+      0.3571,
+      0.4286
+    ],
+    "away_scored": [
+      0.1333,
+      0.0667,
+      0.3333,
+      0.2667,
+      0.0667,
+      0.2667
+    ],
+    "home_conceded": [
+      0.1429,
+      0.0714,
+      0.3571,
+      0.2857,
+      0.1429,
+      0.5
+    ],
+    "away_conceded": [
+      0.3333,
+      0.2,
+      0.3333,
+      0.3333,
+      0.1333,
+      0.2667
+    ]
+  },
+  "home_xg": 1.93,
+  "away_xg": 1.13,
+  "home_xga": 1.5,
+  "away_xga": 1.6,
+  "cached_at": 1774730485.9210532
+}

@@ -1,0 +1,46 @@
+{
+  "league": "england",
+  "team_name": "Arsenal",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=england&stats=u324-arsenal",
+  "home_games": 15,
+  "away_games": 16,
+  "interval_stats": {
+    "home_scored": [
+      0.1333,
+      0.1333,
+      0.5333,
+      0.4667,
+      0.3333,
+      0.7333
+    ],
+    "away_scored": [
+      0.25,
+      0.1875,
+      0.1875,
+      0.4375,
+      0.3125,
+      0.25
+    ],
+    "home_conceded": [
+      0.0667,
+      0.0,
+      0.1333,
+      0.1333,
+      0.0667,
+      0.2
+    ],
+    "away_conceded": [
+      0.0625,
+      0.0,
+      0.25,
+      0.0625,
+      0.125,
+      0.3125
+    ]
+  },
+  "home_xg": 2.33,
+  "away_xg": 1.63,
+  "home_xga": 0.6,
+  "away_xga": 0.81,
+  "cached_at": 1774730352.7491474
+}

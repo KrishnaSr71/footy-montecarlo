@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "Bayern Munich",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1392-bayern-munich",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.2143,
+      0.9286,
+      0.9286,
+      0.4286,
+      0.6429,
+      0.8571
+    ],
+    "away_scored": [
+      0.2308,
+      0.3077,
+      0.4615,
+      0.3846,
+      0.6154,
+      1.1538
+    ],
+    "home_conceded": [
+      0.2143,
+      0.0714,
+      0.1429,
+      0.0,
+      0.1429,
+      0.3571
+    ],
+    "away_conceded": [
+      0.0769,
+      0.2308,
+      0.1538,
+      0.1538,
+      0.0,
+      0.3077
+    ]
+  },
+  "home_xg": 4.0,
+  "away_xg": 3.15,
+  "home_xga": 0.93,
+  "away_xga": 0.92,
+  "cached_at": 1774730569.2401147
+}

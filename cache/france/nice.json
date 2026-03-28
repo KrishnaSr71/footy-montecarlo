@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Nice",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u511-nice",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.2143,
+      0.1429,
+      0.2143,
+      0.2857,
+      0.2143,
+      0.1429
+    ],
+    "away_scored": [
+      0.0769,
+      0.3077,
+      0.3846,
+      0.1538,
+      0.0769,
+      0.1538
+    ],
+    "home_conceded": [
+      0.2857,
+      0.2857,
+      0.2857,
+      0.2143,
+      0.2143,
+      0.5
+    ],
+    "away_conceded": [
+      0.3846,
+      0.0769,
+      0.4615,
+      0.3846,
+      0.3846,
+      0.3846
+    ]
+  },
+  "home_xg": 1.21,
+  "away_xg": 1.15,
+  "home_xga": 1.79,
+  "away_xga": 2.08,
+  "cached_at": 1774730544.9184763
+}

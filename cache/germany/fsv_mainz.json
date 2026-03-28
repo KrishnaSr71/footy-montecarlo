@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "FSV Mainz",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1407-fsv-mainz",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.1429,
+      0.0714,
+      0.2857,
+      0.0714,
+      0.2143,
+      0.4286
+    ],
+    "away_scored": [
+      0.1538,
+      0.2308,
+      0.2308,
+      0.2308,
+      0.3077,
+      0.0769
+    ],
+    "home_conceded": [
+      0.2143,
+      0.2143,
+      0.2143,
+      0.1429,
+      0.0714,
+      0.3571
+    ],
+    "away_conceded": [
+      0.4615,
+      0.1538,
+      0.2308,
+      0.2308,
+      0.0769,
+      0.7692
+    ]
+  },
+  "home_xg": 1.21,
+  "away_xg": 1.23,
+  "home_xga": 1.21,
+  "away_xga": 1.92,
+  "cached_at": 1774730589.9852924
+}

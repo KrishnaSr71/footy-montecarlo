@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "FC Augsburg",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1397-fc-augsburg",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.1429,
+      0.0714,
+      0.1429,
+      0.5,
+      0.1429,
+      0.3571
+    ],
+    "away_scored": [
+      0.0769,
+      0.1538,
+      0.3077,
+      0.1538,
+      0.0769,
+      0.3077
+    ],
+    "home_conceded": [
+      0.2143,
+      0.3571,
+      0.3571,
+      0.3571,
+      0.2857,
+      0.1429
+    ],
+    "away_conceded": [
+      0.2308,
+      0.3846,
+      0.3846,
+      0.3077,
+      0.2308,
+      0.4615
+    ]
+  },
+  "home_xg": 1.36,
+  "away_xg": 1.08,
+  "home_xga": 1.71,
+  "away_xga": 2.0,
+  "cached_at": 1774730579.458247
+}

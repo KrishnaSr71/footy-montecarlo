@@ -1,0 +1,46 @@
+{
+  "league": "italy",
+  "team_name": "Genoa",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=italy&stats=u1278-genoa",
+  "home_games": 16,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.25,
+      0.0625,
+      0.125,
+      0.1875,
+      0.25,
+      0.3125
+    ],
+    "away_scored": [
+      0.0714,
+      0.2143,
+      0.2143,
+      0.0,
+      0.2857,
+      0.4286
+    ],
+    "home_conceded": [
+      0.1875,
+      0.3125,
+      0.1875,
+      0.25,
+      0.1875,
+      0.1875
+    ],
+    "away_conceded": [
+      0.1429,
+      0.0714,
+      0.2857,
+      0.2857,
+      0.4286,
+      0.2857
+    ]
+  },
+  "home_xg": 1.19,
+  "away_xg": 1.21,
+  "home_xga": 1.31,
+  "away_xga": 1.5,
+  "cached_at": 1774730304.7494187
+}

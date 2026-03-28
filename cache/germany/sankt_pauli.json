@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "Sankt Pauli",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1427-sankt-pauli",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0,
+      0.0769,
+      0.3077,
+      0.3077,
+      0.0769,
+      0.3077
+    ],
+    "away_scored": [
+      0.0714,
+      0.0714,
+      0.2143,
+      0.0714,
+      0.2143,
+      0.0714
+    ],
+    "home_conceded": [
+      0.0769,
+      0.1538,
+      0.2308,
+      0.2308,
+      0.5385,
+      0.3077
+    ],
+    "away_conceded": [
+      0.2143,
+      0.0714,
+      0.5,
+      0.5,
+      0.0714,
+      0.3571
+    ]
+  },
+  "home_xg": 1.08,
+  "away_xg": 0.71,
+  "home_xga": 1.54,
+  "away_xga": 1.71,
+  "cached_at": 1774730615.2668235
+}

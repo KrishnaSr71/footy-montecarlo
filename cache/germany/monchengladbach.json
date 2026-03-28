@@ -1,0 +1,46 @@
+{
+  "league": "germany",
+  "team_name": "Monchengladbach",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=germany&stats=u1405-monchengladbach",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.1538,
+      0.1538,
+      0.2308,
+      0.0,
+      0.3846,
+      0.3077
+    ],
+    "away_scored": [
+      0.1429,
+      0.0714,
+      0.2143,
+      0.2143,
+      0.2143,
+      0.3571
+    ],
+    "home_conceded": [
+      0.3077,
+      0.2308,
+      0.3846,
+      0.0769,
+      0.3846,
+      0.2308
+    ],
+    "away_conceded": [
+      0.2857,
+      0.2857,
+      0.4286,
+      0.0714,
+      0.2143,
+      0.5
+    ]
+  },
+  "home_xg": 1.23,
+  "away_xg": 1.21,
+  "home_xga": 1.62,
+  "away_xga": 1.79,
+  "cached_at": 1774730608.1945877
+}

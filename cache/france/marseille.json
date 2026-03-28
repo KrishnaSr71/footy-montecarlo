@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Marseille",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u517-marseille",
+  "home_games": 14,
+  "away_games": 13,
+  "interval_stats": {
+    "home_scored": [
+      0.3571,
+      0.2857,
+      0.2857,
+      0.2143,
+      0.5,
+      0.7857
+    ],
+    "away_scored": [
+      0.0769,
+      0.4615,
+      0.2308,
+      0.3077,
+      0.1538,
+      0.3077
+    ],
+    "home_conceded": [
+      0.1429,
+      0.2143,
+      0.0714,
+      0.1429,
+      0.0714,
+      0.5714
+    ],
+    "away_conceded": [
+      0.2308,
+      0.1538,
+      0.1538,
+      0.1538,
+      0.3077,
+      0.3846
+    ]
+  },
+  "home_xg": 2.43,
+  "away_xg": 1.54,
+  "home_xga": 1.21,
+  "away_xga": 1.38,
+  "cached_at": 1774730531.1852124
+}

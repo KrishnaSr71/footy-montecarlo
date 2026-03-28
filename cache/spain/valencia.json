@@ -1,0 +1,46 @@
+{
+  "league": "spain",
+  "team_name": "Valencia",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=spain&stats=u1308-valencia",
+  "home_games": 14,
+  "away_games": 15,
+  "interval_stats": {
+    "home_scored": [
+      0.1429,
+      0.0714,
+      0.0,
+      0.3571,
+      0.1429,
+      0.6429
+    ],
+    "away_scored": [
+      0.0667,
+      0.1333,
+      0.1333,
+      0.0667,
+      0.3333,
+      0.1333
+    ],
+    "home_conceded": [
+      0.0714,
+      0.0714,
+      0.0714,
+      0.2857,
+      0.2857,
+      0.2857
+    ],
+    "away_conceded": [
+      0.0667,
+      0.4,
+      0.4,
+      0.2667,
+      0.2,
+      0.4667
+    ]
+  },
+  "home_xg": 1.36,
+  "away_xg": 0.87,
+  "home_xga": 1.07,
+  "away_xga": 1.8,
+  "cached_at": 1774730492.9440389
+}

@@ -1,0 +1,46 @@
+{
+  "league": "france",
+  "team_name": "Paris FC",
+  "team_url": "https://www.soccerstats.com/teamstats.asp?league=france&stats=u7654-paris-fc",
+  "home_games": 13,
+  "away_games": 14,
+  "interval_stats": {
+    "home_scored": [
+      0.0769,
+      0.3077,
+      0.2308,
+      0.0769,
+      0.1538,
+      0.5385
+    ],
+    "away_scored": [
+      0.2143,
+      0.1429,
+      0.1429,
+      0.2143,
+      0.0714,
+      0.2143
+    ],
+    "home_conceded": [
+      0.1538,
+      0.3846,
+      0.3077,
+      0.3846,
+      0.1538,
+      0.4615
+    ],
+    "away_conceded": [
+      0.0714,
+      0.2143,
+      0.2143,
+      0.2143,
+      0.1429,
+      0.5
+    ]
+  },
+  "home_xg": 1.38,
+  "away_xg": 1.0,
+  "home_xga": 1.85,
+  "away_xga": 1.36,
+  "cached_at": 1774730548.3178937
+}
