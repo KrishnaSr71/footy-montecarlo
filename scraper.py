@@ -188,7 +188,7 @@ class Scraper:
             json.dump(team_data, f, indent=2)
         return path
 
-    def load_team(self, team_name, league, max_age_days=3):
+    def load_team(self, team_name, league, max_age_days=100):
         path = os.path.join(CACHE_DIR, league, f"{team_name.lower().replace(' ', '_')}.json")
         if not os.path.exists(path):
             return None
